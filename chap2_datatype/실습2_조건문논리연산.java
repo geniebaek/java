@@ -17,9 +17,6 @@ public class 실습2_조건문논리연산 {
 			
 			
 			
-;
-
-			
 					
 
 		      Scanner sc = new Scanner(System.in);
@@ -42,7 +39,6 @@ public class 실습2_조건문논리연산 {
 
 
 		        // 논리 연산 사용
-
 		    /*
 
 		      * 부산 청년의 정의는 20 < age < 30

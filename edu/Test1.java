@@ -6,10 +6,10 @@ public class Test1 {
 		
 		Scanner sc = new Scanner(system.in);
 		System.out.print("이름: ");
-		String name = SC.next();
+		String name = sc.next();
 		
 		System.out.print("나이: ");
-		int age = SC.nextint();
+		int age = sc.nextint();
 		
 		System.out.println("이름 :" + name);
 		System.out.println("나이 :" + age);
@@ -22,5 +22,7 @@ public class Test1 {
 		System.out.println();
 
 	}
+
+	
 
 }
