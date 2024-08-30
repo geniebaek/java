@@ -1,5 +1,5 @@
 package chap5_OOP;
-class person{
+class person2{
 	 private String name;
 	 private int age;
 	 private float weight;

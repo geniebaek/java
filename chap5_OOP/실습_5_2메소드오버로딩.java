@@ -30,9 +30,10 @@ package chap5_OOP;
 	    public float getweight() {
 	    	return weight;
 	    }
+	  
+	   
 	    public void show(String msg) {
-	    	System.out.println("이름 = "+name+",나이 = "+age+",몸무게 +"+weight);
-	    }
+	        System.out.println("메시지 = " + msg);
 	  
 	    // age 메소드:setter, getter 함수 구현, 교재 p199
 	    
@@ -50,16 +51,19 @@ public class 실습_5_2메소드오버로딩 {
 	    public static void main(String[] args) {
 	        // 객체 생성
 	        Person p = new Person();
-	        p.name = "홍길동";
 	        p.setName("홍길동");
 	        p.setAge(25);
 	        p.setWeight(62.123f);
 	        //다음 코드를 디버깅
-	        System.out.println("이름 = " + name + ", 나이 = " + age + ", 몸무게 = " + weight);
+	        System.out.println("이름 = " +p.getName()+ ", 나이 = " + p.getAge() + ", 몸무게 = " + p.getweight());
 
 	        // 메소드 호출
-	        p.show();
-	        p.show("오버로딩");
+	        p.getAge();
+	        p.getName();
+	        p.getweight();
+	        
+	        
+	     
 	    }
 	}
 }

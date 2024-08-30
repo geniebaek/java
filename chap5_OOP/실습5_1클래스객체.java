@@ -11,7 +11,7 @@ public class 실습5_1클래스객체 {
 		}
 	
 	
-		class Person {
+		class Person4 {
 		    // 필드
 			/*
 			 * name은 String, age는 int, weight는 float로 필드 선언
@@ -36,7 +36,7 @@ public class 실습5_1클래스객체 {
 		    	mark16.name = "강감찬"; //"강감찬" 스르링 리터럴 상수 문자열함수
 		    	mark16.takeoff();
 		    	
-		        Person p = new Person();
+		        Person4 p = new Person4();
 		        p.name = "홍길동";
 		        p.age = 25;
 		        p.weight = 60.56f;
