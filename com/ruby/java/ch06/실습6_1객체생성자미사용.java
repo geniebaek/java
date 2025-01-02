@@ -48,8 +48,8 @@ class Student {
     // 학생 정보를 출력하는 메소드 (예시용)
     public void printStudent() {
     	System.out.println("이름 = "+name+", 나이 = "+age);
-    	for(int i= 0;i<count;i++) {
-    		System.out.println("과목1="+subjects[i]+"점수1="+scores[i]);
+    	for(int i= 0;i<subjects.length;i++) {
+    		System.out.println("과목"+(i+1)+"="+subjects[i]+"점수"+(i+1)+"="+scores[i]);
     	}
     	
     	
